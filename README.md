@@ -4,6 +4,7 @@ A convolutional neural network trained on the Cifar-10 dataset
 Network Test Accuracy: 86.47%
 
 Data Augmentation:
+
     Random Horizontal Flip
     
     Random Rotation (maximum angle of 10 degrees)
