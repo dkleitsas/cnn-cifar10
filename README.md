@@ -1,6 +1,8 @@
 # CIFAR-10 CNN 
 A convolutional neural network trained on the Cifar-10 dataset
 
+Network Test Accuracy: 86.47%
+
 Data Augmentation:
     Random Horizontal Flip
     
@@ -23,20 +25,24 @@ Network Architecture:
     Batch Normalization Layers
 
 Weight Initialization:
+
     Kaiming Uniform Initialization
 
 Optimization Algorithm:
+
     Stochastic Gradient Descent (SGD)
 
 Learning Rate Schedule:
+
     Starting Learning Rate: 0.01
     
     Learning Rate Decreases to 0.001 and 0.0001 at 25 and 80 epochs respectively
 
 Training Parameters:
+
     Epochs: 100
     
     Batch Size: 32
     
  
-Network Test Accuracy: 86.47%
+
